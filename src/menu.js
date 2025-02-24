@@ -7,57 +7,6 @@ import oden from "./assets/Oden.png";
 import aburaage from "./assets/Aburaage.png";
 import shrimp_paella from "./assets/Dress Shrimp Paella.png";
 
-// function Menu(){
-//     const content = document.querySelector("#content");
-//     content.innerHTML = "";
-
-//     const div = document.createElement("div");
-//     div.classList.add("menu");
-
-//     const fr_div = document.createElement("div");
-//     const fr = document.createElement("img");
-//     fr.classList.add("Mimg");
-//     fr.src = friedrice;
-
-//     const rt_div = document.createElement("div");
-//     const rt = document.createElement("img");
-//     rt.classList.add("Mimg");
-//     rt.src = risotto;
-
-//     const sb_div = document.createElement("div");
-//     const sb = document.createElement("img");
-//     sb.classList.add("Mimg");
-//     sb.src = soba;
-
-//     const ra_div = document.createElement("div");
-//     const ra = document.createElement("img");
-//     ra.classList.add("Mimg");
-//     ra.src = ramen;
-
-//     const skm_div = document.createElement("div");
-//     const skm = document.createElement("img");
-//     skm.classList.add("Mimg");
-//     skm.src = sea_king_meat;
-
-//     const od_div = document.createElement("div");
-//     const od = document.createElement("img");
-//     od.classList.add("Mimg");
-//     od.src = oden;
-
-//     const ab_div = document.createElement("div");
-//     const ab = document.createElement("img");
-//     ab.classList.add("Mimg");
-//     ab.src = aburaage;
-
-//     const sp_div = document.createElement("div");
-//     const sp = document.createElement("img");
-//     sp.classList.add("Mimg");
-//     sp.src = shrimp_paella;
-
-
-
-// }
-
 function Menu() {
     const content = document.querySelector("#content");
     content.innerHTML = "";
