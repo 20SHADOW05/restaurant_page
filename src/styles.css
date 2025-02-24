@@ -1,0 +1,155 @@
+@font-face {
+    font-family: fajardose;
+    src: url(assets/MissFajardose-Regular.ttf);
+}
+
+@font-face {
+    font-family: josefin;
+    src: url(assets/JosefinSans-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0;
+    background: url(assets/baratie.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.name{
+    margin: 0;
+    font-family: fajardose, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 6rem;
+    color: white;
+}
+
+.navs{
+    font-family: josefin,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 5vw;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+.Hpage:hover , .Mpage:hover , .Cpage:hover{
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+}
+
+header{
+    width: 100%;
+    max-width: 100vw;
+    background-color: rgba(0, 31, 63, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    max-width: 100vw;
+    background-color: rgba(0, 31, 63, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: josefin,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    padding: 1em 0;
+}
+
+.home{
+    width: 35vw;
+    background-color: rgba(0, 31, 63, 0.6);
+    color: white;
+    font-family: josefin,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 3vh;
+}
+
+.chefImg {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover; 
+}
+
+.contact{
+    width: 35vw;
+    background-color: rgba(0, 31, 63, 0.6);
+    color: white;
+    font-family: josefin,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 5vh;
+}
+
+.phone , .location {
+    margin: 0;
+}
+
+.map{
+    width: 550px;
+    height: 400px;
+}
+
+.menu{
+    width: 45vw;
+    background-color: rgba(0, 31, 63, 0.6);
+    color: white;
+    font-family: josefin,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 5vh;
+}
+
+.dish-container{
+    background:  rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    padding: 0,5em;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px double rgba(255, 255, 255, 0.5);
+}
+
+.Mimg{
+    width: 250px;
+    height: 200px;
+    margin-top: 3vh;
+    border-radius: 8px;
+}
+
+.dish-name{
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+.dish-desc{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1em;
+}
